@@ -30,9 +30,15 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-.nav-link:hover {
-  transform: rotateZ(10deg);
-  transition: all 0.4s ease-out;
+.nav-link::after {
+  display:block;
+  content: '';
+  border-bottom: solid 3px #c2edf3;  
+  transform: scaleX(0);  
+  transition: transform 250ms ease-in-out;
+}
+.nav-link:hover::after {
+  transform: scaleX(1);
 }
 .nav-menu {
   display: flex;
@@ -69,10 +75,9 @@
     display: flex;
     justify-content: space-between;
     padding: 5rem;
-    background: #17021d;
+    background: #000000;
     left: 0;
     opacity: 1;
-    transition: all 0.5s ease;
     z-index: 1;
   }
 
@@ -84,9 +89,5 @@
     transform: translate(-50%, 50%);
     font-size: 1.8rem;
     cursor: pointer;
-  }
-  .nav-item:hover {
-    background-color: rgba(250, 79, 250, 0.493);
-    border-radius: 10%;
   }
 }

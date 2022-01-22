@@ -1,0 +1,45 @@
+.main-context {
+  margin: 0 2rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.right-intro {
+}
+.right-intro > h2 {
+  font-weight: 200;
+}
+.auto-title {
+  height: 50px;
+  overflow: hidden;
+}
+.title-wrapper {
+  height: 100%;
+  animation: move 6s ease-in-out infinite alternate;
+}
+.title-item {
+  color: rgb(28, 223, 213);
+  height: 50px;
+  font-size: 3rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+/* 自動換字 */
+@keyframes move {
+  33.33% {
+    transform: translateY(-50px);
+  }
+  66.67% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(-150px);
+  }
+}
+.left-intro {
+}
+.img > img {
+  text-align: center;
+  object-fit: cover;
+}

@@ -12,7 +12,7 @@ function Navbar() {
     setMenuClick(false);
   };
   return (
-    <nav className="navbar">
+    <nav className="navbar container-fluid">
       <Link to="/home">
         <div className="logo">
           <h3>Micheal Kuo</h3>

@@ -6,4 +6,5 @@
   },
   "editor.lineHeight": 20,
   "terminal.integrated.fontSize": 12,
+  "emmet.includeLanguages": { "javascript": "javascriptreact" }
 }
