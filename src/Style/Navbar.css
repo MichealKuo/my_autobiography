@@ -1,0 +1,92 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Mochiy Pop P One", sans-serif;
+}
+.navbar > a {
+  text-decoration: none;
+}
+.menu-icon {
+  margin-top: -20px;
+}
+.logo {
+  font-size: 1rem;
+  font-weight: 300;
+  cursor: pointer;
+}
+.logo > h3 {
+  background: -webkit-linear-gradient(30deg, #ffea35 12%, #03f4ac 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.menu-icon {
+  width: 2rem;
+  height: 2rem;
+}
+
+.nav-link {
+  background: -webkit-linear-gradient(60deg, #35e1ff 12%, #f6f46f 85%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.nav-link:hover {
+  transform: rotateZ(10deg);
+  transition: all 0.4s ease-out;
+}
+.nav-menu {
+  display: flex;
+  list-style: none;
+  text-align: center;
+  align-items: center;
+  align-content: center;
+  justify-content: end;
+  margin-right: 2rem;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 960px) {
+  .logo {
+    position: relative;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 70vh;
+    position: absolute;
+    top: 80px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+  }
+
+  .nav-menu.active {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem;
+    background: #17021d;
+    left: 0;
+    opacity: 1;
+    transition: all 0.5s ease;
+    z-index: 1;
+  }
+
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-50%, 50%);
+    font-size: 1.8rem;
+    cursor: pointer;
+  }
+  .nav-item:hover {
+    background-color: rgba(250, 79, 250, 0.493);
+    border-radius: 10%;
+  }
+}
