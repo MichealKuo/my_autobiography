@@ -4,12 +4,9 @@ import Me from "../img/introDelBG.png";
 function Home() {
   return (
     <>
-      <div className="main-context container">
+      <div className="main-context container ">
         <div className="left-intro">
-          <div className="img-bgc"></div>
-          <div className="img">
-            <img src={Me} alt="" className=""></img>
-          </div>
+          <img src={Me} alt="" className="i-img"></img>
         </div>
         <div className="right-intro">
           <h2>Hello, I am </h2>

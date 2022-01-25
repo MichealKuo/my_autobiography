@@ -31,10 +31,10 @@
   -webkit-text-fill-color: transparent;
 }
 .nav-link::after {
-  display:block;
-  content: '';
-  border-bottom: solid 3px #c2edf3;  
-  transform: scaleX(0);  
+  display: block;
+  content: "";
+  border-bottom: solid 3px #c2edf3;
+  transform: scaleX(0);
   transition: transform 250ms ease-in-out;
 }
 .nav-link:hover::after {
@@ -62,10 +62,10 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 70%;
-    height: 70vh;
+    justify-content: space-evenly;
+    width: 50%;
+    height: 60vh;
     position: absolute;
-    top: 80px;
     left: -100%;
     opacity: 1;
     transition: all 0.5s ease;
@@ -73,10 +73,10 @@
 
   .nav-menu.active {
     display: flex;
-    justify-content: space-between;
-    padding: 5rem;
-    background: #000000;
+    padding: 2rem;
+    background: #161713;
     left: 0;
+    top: 50%;
     opacity: 1;
     z-index: 1;
   }
