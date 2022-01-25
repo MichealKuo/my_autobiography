@@ -13,7 +13,7 @@ function Home() {
           <div className="auto-title">
             <div className="title-wrapper">
               <div className="title-item">Micheal Kuo</div>
-              <div className="title-item">Front-End Developer</div>
+              <div className="title-item">Front-End Dev</div>
               <div className="title-item">Junior</div>
             </div>
           </div>
