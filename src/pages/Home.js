@@ -1,12 +1,25 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../Style/Home.css";
 import Me from "../img/introDelBG.png";
+import Aos from "aos";
+import "aos/dist/aos.css";
 function Home() {
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  }, []);
+
   return (
     <>
-      <div className="main-context container ">
+      <div className="main-context container">
         <div className="left-intro">
-          <img src={Me} alt="" className="i-img"></img>
+          {/* aos fade in */}
+          <div
+            data-aos="fade-right"
+            data-aos-easing="ease-in-sine"
+            className="introFadeBox"
+          >
+            <img src={Me} alt="" className="i-img"></img>
+          </div>
         </div>
         <div className="right-intro">
           <h2>Hello, I am </h2>
