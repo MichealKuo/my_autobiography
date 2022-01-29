@@ -3,7 +3,10 @@ import "../Style/Home.css";
 import Me from "../img/introDelBG.png";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
+
 function Home() {
+  //設定aos.初始值
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
@@ -29,6 +32,11 @@ function Home() {
               <div className="title-item">Front-End Dev</div>
               <div className="title-item">Junior</div>
             </div>
+          </div>
+          <div className="seeMoreBtn">
+            <Link to="/about">
+              <button className="moreBtn">See more</button>
+            </Link>
           </div>
         </div>
       </div>
