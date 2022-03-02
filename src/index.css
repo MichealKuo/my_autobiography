@@ -1,10 +1,11 @@
-body {
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
   font-family: "Mochiy Pop P One", sans-serif;
 }
+@import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+section {
+  height: 100vh;
 }

@@ -4,7 +4,9 @@
     "titleBar.activeBackground": "#1F490D",
     "titleBar.activeForeground": "#F6FDF3"
   },
-  "editor.lineHeight": 20,
-  "terminal.integrated.fontSize": 12,
-  "emmet.includeLanguages": { "javascript": "javascriptreact" }
+  "editor.lineHeight": 1.25,
+  "editor.fontSize": 13,
+  "terminal.integrated.fontSize": 13,
+  "emmet.includeLanguages": { "javascript": "javascriptreact" },
+  "checkjs: true"
 }

@@ -4,7 +4,6 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  position: relative;
 }
 /* 左區 */
 .introFadeBox {
@@ -69,12 +68,12 @@
 
 /* RWD */
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 992px) {
   @keyframes move {
-    33.33% {
+    33% {
       transform: translateY(-35px);
     }
-    66.67% {
+    66% {
       transform: translateY(-70px);
     }
     100% {
@@ -83,14 +82,17 @@
   }
   .title-wrapper {
     width: 100%;
-    height: 40px;
-    animation: move 9s ease-in-out infinite alternate;
+    height: 35px;
+    animation: move 8s ease-in-out infinite alternate;
   }
 
   .right-intro > h2 {
     font-size: 15px;
   }
   .title-item {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
+  }
+  .seeMoreBtn {
+    font-size: 0.2rem;
   }
 } ;

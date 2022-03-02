@@ -4,21 +4,21 @@ import { Link } from "react-router-dom";
 import { FcMenu, FcCancel } from "react-icons/fc";
 
 function Navbar() {
-  const [menuClick, setMenuClick] = useState(false);
+  const [menuClicked, setMenuClicked] = useState(false);
   const handleClick = () => {
-    setMenuClick(!menuClick);
+    setMenuClicked(!menuClicked);
   };
   const handleCloseMenu = () => {
-    setMenuClick(false);
+    setMenuClicked(false);
   };
   return (
-    <nav className="navbar container-fluid">
+    <div className="navbar">
       <Link to="/home">
         <div className="logo">
           <h3>Micheal Kuo</h3>
         </div>
       </Link>
-      <ul className={menuClick ? "nav-menu active" : "nav-menu"}>
+      <ul className={menuClicked ? "nav-menu active" : "nav-menu"}>
         <li className="nav-item">
           <Link to="/home" className="nav-link" onClick={handleCloseMenu}>
             Home
@@ -41,9 +41,9 @@ function Navbar() {
         </li>
       </ul>
       <div className="menu-icon" onClick={handleClick}>
-        {menuClick ? <FcCancel /> : <FcMenu />}
+        {menuClicked ? <FcCancel /> : <FcMenu />}
       </div>
-    </nav>
+    </div>
   );
 }
 
