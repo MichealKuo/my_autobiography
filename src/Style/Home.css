@@ -4,6 +4,7 @@
   justify-content: center;
   width: 100%;
   height: 100%;
+  margin-top: 3rem;
 }
 /* 左區 */
 .introFadeBox {
@@ -13,16 +14,22 @@
 .left-intro {
   flex: 2;
   height: 80vh;
+  border-radius: 3rem;
+  overflow: hidden;
+  margin-right: 3rem;
 }
 .i-img {
   width: 100%;
   height: 100%;
-  object-fit: contain;
+  object-fit: cover;
 }
 /* 右區 */
 .right-intro {
   flex: 1;
   margin: 50px 0;
+}
+.right-intro > h2 {
+  color: rgb(55, 47, 47);
 }
 
 .auto-title {
@@ -42,7 +49,6 @@
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  text-shadow: rgba(197, 199, 199, 0.584) 0.2em 0.1em 0.1em;
 }
 .seeMoreBtn {
   margin-top: 2rem;
@@ -53,7 +59,7 @@
   background-color: #fff;
 }
 .moreBtn:hover {
-  background-color: #000;
+  background-color: rgb(55, 47, 47);
   color: #fff;
 }
 /* 自動換字 */
@@ -65,9 +71,13 @@
     transform: translateY(-160px);
   }
 }
+/* collection-part */
+
+/* contact-part */
 
 /* RWD */
 
+/* intro-part */
 @media screen and (max-width: 992px) {
   @keyframes move {
     33% {
