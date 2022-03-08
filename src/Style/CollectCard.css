@@ -1,7 +1,17 @@
-.CollCard {
-    width: 300px;
-    height: 100%;
+.Collection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
-.CollCard>img {
-    width: 100%;
+.CollectText {
+  color: rgba(55, 47, 47, 0.89);
+}
+.CollectionCard {
+  width: 100%;
+  display: flex;
+  /* justify-content: flex-start; */
+  flex-wrap: wrap;
+  text-align: center;
 }

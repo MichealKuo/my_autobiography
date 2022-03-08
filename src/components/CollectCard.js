@@ -1,12 +1,23 @@
 import React from "react";
 import "../Style/CollectCard.css";
-
+import { Collection } from "../Collection/collection";
+import Card from "../components/Card";
 function CollectCard() {
   return (
-    <div className="CollCard">
-      <img src="" alt="" />
-      <h4>123</h4>
-      <p>456</p>
+    <div className="Collection">
+      <div className="CollectText">
+        <h1>Collection</h1>
+      </div>
+      <div className="CollectionCard">
+        {Collection.map((item) => (
+          <Card
+            key={item.id}
+            img={item.url}
+            title={item.title}
+            describe={item.describe}
+          />
+        ))}
+      </div>
     </div>
   );
 }

@@ -4,7 +4,6 @@
   justify-content: center;
   width: 100%;
   height: 100%;
-  margin-top: 3rem;
 }
 /* 左區 */
 .introFadeBox {
@@ -13,8 +12,8 @@
 }
 .left-intro {
   flex: 2;
-  height: 80vh;
-  border-radius: 3rem;
+  height: 85vh;
+  border-radius: 5rem 15rem 5rem 15rem;
   overflow: hidden;
   margin-right: 3rem;
 }
@@ -72,7 +71,6 @@
   }
 }
 /* collection-part */
-
 /* contact-part */
 
 /* RWD */

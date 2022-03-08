@@ -3,8 +3,8 @@ import "../Style/Home.css";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
-import Me from "../img/IMG_5275.JPG";
-import Card from "../components/CollectCard";
+import Me from "../img/introDelBG.JPG";
+import CollectCard from "../components/CollectCard";
 function Home() {
   //設定aos.初始值
   useEffect(() => {
@@ -44,7 +44,7 @@ function Home() {
         </section>
         {/* collection */}
         <section className="collection-part">
-          <Card />
+          <CollectCard />
         </section>
         {/* contact */}
         <section className="contact-part">456</section>
