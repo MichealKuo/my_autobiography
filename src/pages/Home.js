@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
 import Me from "../img/introDelBG.JPG";
 import CollectCard from "../components/CollectCard";
+import AboutMe from "../components/AboutMe";
 function Home() {
   //設定aos.初始值
   useEffect(() => {
@@ -14,7 +15,7 @@ function Home() {
   return (
     <>
       {/* self-part */}
-      <div className="container">
+      <div className="HomePage">
         <section className="main-context">
           <div className="left-intro">
             {/* aos fade in */}
@@ -41,6 +42,10 @@ function Home() {
               </Link>
             </div>
           </div>
+        </section>
+        {/* About ME */}
+        <section className="collect-about">
+          <AboutMe />
         </section>
         {/* collection */}
         <section className="collection-part">

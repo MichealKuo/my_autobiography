@@ -1,9 +1,15 @@
+.HomePage {
+  height: 100vh;
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
 .main-context {
   display: flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 100%;
+  height: 100vh;
+  margin-left: 1.5rem;
 }
 /* 左區 */
 .introFadeBox {
@@ -33,12 +39,12 @@
 
 .auto-title {
   width: 100%;
-  overflow: hidden;
+  height: 70px;
+
   margin-top: 2rem;
 }
 .title-wrapper {
   width: 100%;
-  height: 70px;
   animation: move 6s ease-in-out infinite alternate;
 }
 .title-item {
@@ -61,6 +67,11 @@
   background-color: rgb(55, 47, 47);
   color: #fff;
 }
+
+/* collection-part */
+.collection-part {
+  background-color: rgb(55, 47, 47);
+}
 /* 自動換字 */
 @keyframes move {
   50% {
@@ -78,19 +89,35 @@
 /* intro-part */
 @media screen and (max-width: 992px) {
   @keyframes move {
-    33% {
+    50% {
       transform: translateY(-35px);
     }
-    66% {
+    100% {
       transform: translateY(-70px);
     }
-    100% {
-      transform: translateY(-105px);
-    }
+   
+  }
+  .main-context {
+    padding-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+  }
+  .left-intro {
+    margin-right: 0rem;
+  }
+
+  .right-intro {
+    text-align: center;
+  }
+  .auto-title {
+    height: 35px;
   }
   .title-wrapper {
     width: 100%;
-    height: 35px;
+    text-align: center;
     animation: move 8s ease-in-out infinite alternate;
   }
 
@@ -98,7 +125,9 @@
     font-size: 15px;
   }
   .title-item {
-    font-size: 1.4rem;
+    display: flex;
+    align-items: center;
+    font-size: 23px;
   }
   .seeMoreBtn {
     font-size: 0.2rem;

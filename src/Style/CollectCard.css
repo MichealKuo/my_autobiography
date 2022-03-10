@@ -6,7 +6,8 @@
   align-items: center;
 }
 .CollectText {
-  color: rgba(55, 47, 47, 0.89);
+  margin-top: 3rem;
+  color: rgba(255, 255, 255, 0.89);
 }
 .CollectionCard {
   width: 100%;

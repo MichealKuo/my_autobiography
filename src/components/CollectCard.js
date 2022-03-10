@@ -15,6 +15,7 @@ function CollectCard() {
             img={item.url}
             title={item.title}
             describe={item.describe}
+            link={item.link}
           />
         ))}
       </div>
