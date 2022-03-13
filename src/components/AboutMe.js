@@ -3,6 +3,7 @@ import "../Style/AboutMe.css";
 import Me from "../img/AboutMe.JPG";
 import { FaAward } from "react-icons/fa";
 import { MdWorkOutline } from "react-icons/md";
+import { BiBody } from "react-icons/bi";
 function AboutMe() {
   return (
     <div className="About">
@@ -24,9 +25,9 @@ function AboutMe() {
             <h6> 2 + </h6>
           </div>
           <div className="iconWorks">
-            <MdWorkOutline />
-            <h6>Projects</h6>
-            <h6> 2 + </h6>
+            <BiBody />
+            <h6>Personality</h6>
+            <h6>Perseverance</h6>
           </div>
         </div>
         <div className="AboutText">

@@ -40,8 +40,8 @@
 }
 .iconAward,
 .iconWorks {
-  width: 120px;
-  height: 120px;
+  width: 140px;
+  height: 140px;
   padding: 0 auto;
   border-radius: 2rem;
   background-color: rgb(46, 41, 41);
@@ -92,17 +92,26 @@ span {
     height: 50vh;
   }
   .a-left {
-    margin: 1.5rem 0 1.5rem 0;
+    margin: 3drem 1rem 3rem 1rem;
   }
-  .a-right{
-    padding: 0 ;
+  .a-right {
+    padding: 0;
   }
-  .AboutText{
+  .AboutText {
     width: 100%;
     font-size: 0.1rem;
-    margin: 1rem auto;
+    margin: 1.5rem auto 1rem auto;
   }
-  .AboutText>h6{
+  .iconAward,
+  .iconWorks {
+    width: 120px;
+    height: 120px;
+  }
+  .iconAward,
+  .iconWorks > h6 {
+    font-size: 0.8rem;
+  }
+  .AboutText > h6 {
     font-size: 0.5rem;
   }
 }
