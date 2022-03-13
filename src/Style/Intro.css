@@ -88,7 +88,6 @@
     }
   }
   .main-context {
-    margin-top: 10rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -96,7 +95,7 @@
     padding: 0;
   }
   .left-intro {
-    margin-right: 0rem;
+    margin: 3rem auto 0 auto;
   }
 
   .right-intro {

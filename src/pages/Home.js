@@ -5,6 +5,7 @@ import "aos/dist/aos.css";
 import CollectCard from "../components/CollectCard";
 import AboutMe from "../components/AboutMe";
 import Intro from "../components/Intro";
+import Contact from "../components/Contact";
 function Home() {
   //設定aos.初始值
   useEffect(() => {
@@ -27,7 +28,9 @@ function Home() {
           <CollectCard />
         </section>
         {/* contact */}
-        <section className="contact-part">footer</section>
+        <section className="contact-part">
+          <Contact />
+        </section>
       </div>
     </>
   );

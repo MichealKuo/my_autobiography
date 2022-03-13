@@ -15,19 +15,19 @@ function AboutMe() {
       <div className="a-right">
         <div className="AboutIcon">
           <div className="iconAward">
-            <FaAward />
+            <FaAward className="icon-size " />
             <h6>Experience</h6>
-            <h6> less 1 years</h6>
+            <h6 className="textSize"> less 1 years</h6>
           </div>
           <div className="iconWorks">
-            <MdWorkOutline />
+            <MdWorkOutline className="icon-size " />
             <h6>Projects</h6>
-            <h6> 2 + </h6>
+            <h6 className="textSize"> 2 + </h6>
           </div>
-          <div className="iconWorks">
-            <BiBody />
+          <div className="iconPer">
+            <BiBody className="icon-size " />
             <h6>Personality</h6>
-            <h6>Perseverance</h6>
+            <h6 className="textSize">Perseverance</h6>
           </div>
         </div>
         <div className="AboutText">
