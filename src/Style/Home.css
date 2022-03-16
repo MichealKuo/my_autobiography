@@ -3,7 +3,3 @@
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
 }
-/* collection-part */
-.collection-part {
-  background-color: rgb(55, 47, 47);
-}
