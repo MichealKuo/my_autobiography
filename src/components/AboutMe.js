@@ -17,7 +17,7 @@ function AboutMe() {
           <div className="iconAward">
             <FaAward className="icon-size" />
             <p className="textSizeTitle">Experience</p>
-            <p className="textSize"> less 1 years</p>
+            <p className="textSize"> less 1 year</p>
           </div>
           <div className="iconWorks">
             <MdWorkOutline className="icon-size " />

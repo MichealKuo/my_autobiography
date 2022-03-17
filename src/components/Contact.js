@@ -3,12 +3,15 @@ import { FiMail, FiPhoneCall } from "react-icons/fi";
 import "../Style/contact.css";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
+// emailjs 套件
 function Contact() {
   // emailjs
   const form = useRef();
+  // 使用ref不需要re-render畫面 與 useState 一直更新畫面不同
 
   const sendEmail = (e) => {
     e.preventDefault();
+    // 防止自動跳頁
 
     emailjs
       .sendForm(
@@ -52,7 +55,7 @@ function Contact() {
           </div>
         </div>
         <div className="Contact-right">
-          <form ref={form}>
+          <form ref={form} onSubmit={sendEmail}>
             <div className="inputPart1">
               <input
                 name="name"
