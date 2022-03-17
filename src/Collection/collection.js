@@ -8,15 +8,16 @@ export const Collection = [
   },
   {
     id: 2,
-    url: "https://i.imgur.com/dfMuuk1.jpg",
+    url: "https://img.onl/4ZZmns",
     title: "My-autobiography",
     describe: "Topic: Me",
     link: "https://github.com/MichealKuo/my_autobiography",
   },
   {
     id: 3,
-    url: "https://i.imgur.com/dfMuuk1.jpg",
-    title: "Mao-Planet",
-    describe: "im done with it",
+    url: "https://img.onl/NAK9Mi",
+    title: "CSS Practice(CakeResume)",
+    describe: "",
+    link: "https://github.com/MichealKuo/CSS-practice",
   },
 ];

@@ -1,7 +1,35 @@
 import React from "react";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
 import "../Style/contact.css";
+import { useRef } from "react";
+import emailjs from "emailjs-com";
 function Contact() {
+  // emailjs
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        // email ID
+        "service_cikg7gp",
+        // template ID
+        "template_4p70s2e",
+        form.current,
+        // user ID
+        "4FWd7s2_GF9lTgAUA"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+    e.target.reset();
+  };
   return (
     <div className="Contact-Part">
       <div className="ContactText">
@@ -24,25 +52,37 @@ function Contact() {
           </div>
         </div>
         <div className="Contact-right">
-          <div className="inputPart1">
-            <input type="text" placeholder="Your Full Name" required />
-          </div>
-          <div className="inputPart2">
-            <input type="email" placeholder="Your Email" required />
-          </div>
-          <div className="inputPart3">
-            <textarea
-              name="message"
-              placeholder="Your Message"
-              rows="3"
-              required
-            />
-          </div>
-          <div className="contactBtn">
-            <button type="submit" className="contact-btn">
-              Send
-            </button>
-          </div>
+          <form ref={form}>
+            <div className="inputPart1">
+              <input
+                name="name"
+                type="text"
+                placeholder="Your Full Name"
+                required
+              />
+            </div>
+            <div className="inputPart2">
+              <input
+                type="email"
+                name="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+            <div className="inputPart3">
+              <textarea
+                name="message"
+                placeholder="Your Message"
+                rows="3"
+                required
+              />
+            </div>
+            <div className="contactBtn">
+              <button type="submit" className="contact-btn">
+                Send
+              </button>
+            </div>
+          </form>
         </div>
       </div>
     </div>

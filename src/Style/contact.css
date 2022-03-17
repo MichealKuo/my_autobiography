@@ -37,6 +37,17 @@
   margin: 0 auto 2rem auto;
   overflow: none !important;
 }
+.MailIcon:hover,
+.CellIcon:hover {
+  width: 70%;
+  background-color: #fff;
+  color: rgb(55, 47, 47);
+  border: 3px solid #fff;
+  border-radius: 1.5rem;
+  padding: 2rem;
+  margin: 0 auto 2rem auto;
+  overflow: none !important;
+}
 .MailIcon > h4,
 h6,
 .CellIcon > h4,
@@ -85,6 +96,12 @@ textarea:focus {
   }
   .MailIcon,
   .CellIcon {
+    width: 100%;
+    margin: 0 auto 1rem auto;
+    padding: 1rem;
+  }
+  .MailIcon:hover,
+  .CellIcon:hover {
     width: 100%;
     margin: 0 auto 1rem auto;
     padding: 1rem;

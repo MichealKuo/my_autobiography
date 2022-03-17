@@ -15,7 +15,7 @@ function AboutMe() {
       <div className="a-right">
         <div className="AboutIcon">
           <div className="iconAward">
-            <FaAward className="icon-size " />
+            <FaAward className="icon-size" />
             <p className="textSizeTitle">Experience</p>
             <p className="textSize"> less 1 years</p>
           </div>
@@ -25,7 +25,7 @@ function AboutMe() {
             <p className="textSize"> 2 + </p>
           </div>
           <div className="iconPer">
-            <BiBody className="icon-size " />
+            <BiBody className="icon-size" />
             <p className="textSizeTitle">Personality</p>
             <p className="textSize">Perseverance</p>
           </div>

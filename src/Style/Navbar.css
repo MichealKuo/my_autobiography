@@ -80,6 +80,7 @@
     display: flex;
     padding: 2rem;
     background: rgba(55, 47, 47, 0.89);
+    outline: 1px solid #fff;
     border-radius: 2rem;
     left: 0;
     top: 100%;
