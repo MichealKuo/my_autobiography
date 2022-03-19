@@ -1,0 +1,18 @@
+.CollectionCardPage {
+ width: 100%;
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ align-items: center;
+ 
+}
+.CollectPageText {
+  width: 100%;
+  /* margin-top: 50rem; */
+  color: rgba(211, 47, 47, 0.89);
+}
+.CollectionCards {
+  width:60%;
+  display: flex;
+  flex-wrap: wrap;
+}

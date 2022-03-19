@@ -3,7 +3,8 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Mochiy Pop P One", sans-serif;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
+
   /* 兩條垂直軸 */
 }
 @import url("https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One&display=swap");
@@ -15,4 +16,5 @@ section {
   justify-content: center;
   align-items: center;
   text-align: start;
+  padding-top: 5rem;
 }

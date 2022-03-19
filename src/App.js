@@ -1,20 +1,18 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Navbar from "./pages/Navbar";
-import About from "./pages/About";
-import Collection from "./pages/Collection";
-import Contact from "./pages/Contact";
+import AboutPage from "./pages/AboutPage";
+import CollectionPage from "./pages/CollectionPage";
+import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
     <Router>
-      <Navbar />
       <Routes>
         <Route path="/home" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/collection" element={<Collection />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/collection" element={<CollectionPage />} />
+        <Route path="/contactPage" element={<ContactPage />} />
       </Routes>
     </Router>
   );

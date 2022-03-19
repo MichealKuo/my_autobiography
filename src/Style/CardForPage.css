@@ -1,36 +1,39 @@
-.CardBox {
-  width: 30%;
+.CardPage {
+  width: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.CardBoxPage {
+  width: 100%;
   height: 40vh;
   margin: 50px auto;
   border: 2px solid rgb(243, 242, 242);
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
 }
-.CardBrowser {
+.CardBrowserPage {
   height: 20px;
   background-color: rgb(141, 137, 137);
   display: flex;
   align-items: center;
   position: sticky;
-  z-index: 2;
+  z-index: 1;
 }
-.circle {
+.circlePage {
   width: 6px;
   height: 6px;
   border-radius: 50%;
   margin: 3px;
   background-color: white;
 }
-.CardImg {
+.CardImgPage {
   width: 100%;
   object-fit: contain;
   transition: all 5s ease;
 }
 
-.text{
-  color: #fff;
-}
-.CardBox:hover .CardImg {
+.CardBoxPage:hover .CardImgPage {
   transform: translateY(-100%);
   transition: all 10s 0.5s;
   /* hover時照片往Ｙ上方跑 */

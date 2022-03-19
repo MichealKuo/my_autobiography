@@ -11,6 +11,7 @@ function Navbar() {
   const handleCloseMenu = () => {
     setMenuClicked(false);
   };
+
   return (
     <div className="navbar">
       <Link to="/home">
@@ -35,7 +36,7 @@ function Navbar() {
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/contact" className="nav-link" onClick={handleCloseMenu}>
+          <Link to="/contactPage" className="nav-link" onClick={handleCloseMenu}>
             Contact
           </Link>
         </li>

@@ -15,5 +15,5 @@ function Card({ img, title, describe, link }) {
     </div>
   );
 }
-//describe link title have not add yet 
+//describe link title have not add yet
 export default Card;

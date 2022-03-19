@@ -6,6 +6,8 @@ import CollectCard from "../components/CollectCard";
 import AboutMe from "../components/AboutMe";
 import Intro from "../components/Intro";
 import Contact from "../components/Contact";
+import Navbar from "./Navbar";
+
 function Home() {
   //設定aos.初始值
   useEffect(() => {
@@ -16,19 +18,20 @@ function Home() {
     <>
       {/* self-part */}
       <div className="HomePage">
-        <section className="mainContext-part">
+        <Navbar />
+        <section>
           <Intro />
         </section>
         {/* About ME */}
-        <section className="about-part">
+        <section>
           <AboutMe />
         </section>
         {/* collection */}
-        <section className="collection-part">
+        <section>
           <CollectCard />
         </section>
         {/* contact */}
-        <section className="contact-part">
+        <section>
           <Contact />
         </section>
       </div>
