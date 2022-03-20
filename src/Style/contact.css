@@ -120,4 +120,7 @@ textarea:focus {
     margin: 0.5rem 0;
     font-size: 0.8rem;
   }
+  .contactBtn{
+    font-size: 0.2rem;
+  }
 }

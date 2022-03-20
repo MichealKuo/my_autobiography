@@ -16,6 +16,7 @@ function CollectionCardForPage() {
             title={item.title}
             describe={item.describe}
             link={item.link}
+            skill={item.skill}
           />
         ))}
       </div>

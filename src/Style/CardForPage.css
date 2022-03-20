@@ -3,11 +3,13 @@
   display: flex;
   text-align: center;
   align-items: center;
+  justify-content: space-evenly;
+  margin: 10rem 0;
 }
 .CardBoxPage {
   width: 100%;
-  height: 40vh;
-  margin: 50px auto;
+  flex: 1;
+  height: 50vh;
   border: 2px solid rgb(243, 242, 242);
   border-radius: 10px 10px 0px 0px;
   overflow: hidden;
@@ -30,11 +32,52 @@
 .CardImgPage {
   width: 100%;
   object-fit: contain;
-  transition: all 5s ease;
+  transition: all 3s ease-in;
 }
 
 .CardBoxPage:hover .CardImgPage {
   transform: translateY(-100%);
-  transition: all 10s 0.5s;
+  transition: all 15s 0.5s;
   /* hover時照片往Ｙ上方跑 */
+}
+
+.CardText {
+  flex: 1;
+  padding: 1rem 3rem;
+  letter-spacing: 2px;
+  text-align: center;
+  align-items: center;
+  background-color: rgb(141, 137, 137);
+}
+.CardTitle {
+  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
+}
+.CardDescribe {
+  font-weight: 100;
+  color: rgba(223, 215, 215, 0.945);
+}
+
+@media screen and (max-width: 960px) {
+  .CardPage {
+    display: block;
+    margin: 2rem 0 1rem 0;
+  }
+  .CardText {
+    border-radius: 0 0 10px 10px;
+    padding: 0 5px;
+  }
+  .CardTitle {
+    margin: 0;
+    padding: 1rem 0;
+    font-size: 1rem;
+  }
+  .CardDescribe {
+    font-size: 0.5rem;
+    padding-bottom: 2rem;
+    margin: auto;
+  }
+  .CardBoxPage {
+    height: 50vh;
+  }
 }

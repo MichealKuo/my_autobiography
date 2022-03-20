@@ -1,6 +1,7 @@
 import React from "react";
 import "../Style/CardForPage.css";
-function CardForPage({ img, title, describe, link }) {
+
+function CardForPage({ img, title, describe, link, skill }) {
   return (
     <div className="CardPage">
       <div className="CardBoxPage">
@@ -15,7 +16,8 @@ function CardForPage({ img, title, describe, link }) {
         </a>
       </div>
       <div className="CardText">
-        <p>{title}</p>
+        <p className="CardTitle">{title}</p>
+        <p className="CardDescribe">{describe}</p>
       </div>
     </div>
   );
