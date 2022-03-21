@@ -35,7 +35,6 @@
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  margin-top: 2rem;
 }
 
 .AboutIcon {
@@ -96,6 +95,7 @@ span {
 .btn-contact {
   display: flex;
   justify-content: center;
+  margin-top: 0;
 }
 .Talk-btn {
   padding: 10px;
@@ -136,7 +136,7 @@ span {
     transform: scale(1);
   }
   .btn-contact {
-    margin-top: 1rem;
+    margin-top: 0.2rem;
     font-size: 0.2rem;
   }
 }

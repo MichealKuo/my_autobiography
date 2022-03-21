@@ -15,9 +15,9 @@ function Home() {
           <Intro />
         </section>
         {/* About ME */}
-        {/* <section>
+        <section>
           <AboutMe />
-        </section> */}
+        </section>
         {/* collection */}
         <section>
           <CollectCard />
