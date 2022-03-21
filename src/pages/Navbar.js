@@ -36,7 +36,11 @@ function Navbar() {
           </Link>
         </li>
         <li className="nav-item">
-          <Link to="/contactPage" className="nav-link" onClick={handleCloseMenu}>
+          <Link
+            to="/contactPage"
+            className="nav-link"
+            onClick={handleCloseMenu}
+          >
             Contact
           </Link>
         </li>

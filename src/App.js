@@ -4,7 +4,7 @@ import Home from "./pages/Home";
 import AboutPage from "./pages/AboutPage";
 import CollectionPage from "./pages/CollectionPage";
 import ContactPage from "./pages/ContactPage";
-
+import Navbar from "./pages/Navbar";
 function App() {
   return (
     <Router>
