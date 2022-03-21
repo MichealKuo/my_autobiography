@@ -8,17 +8,23 @@ function Intro() {
     <div className="main-context">
       <div className="left-intro">
         {/* aos fade in */}
-        <div
+        <img
+          src={Me}
+          alt=""
+          className="i-img"
           data-aos="fade-right"
           data-aos-easing="ease-in-sine"
-          className="introFadeBox"
-        >
-          <img src={Me} alt="" className="i-img"></img>
-        </div>
+        ></img>
       </div>
       <div className="right-intro">
-        <h2>Hello, I am </h2>
-        <div className="auto-title">
+        <h2 data-aos="fade-down" data-aos-easing="ease-in-sine">
+          Hello, I am
+        </h2>
+        <div
+          className="auto-title"
+          data-aos="fade-left"
+          data-aos-easing="ease-in-sine"
+        >
           <div className="title-wrapper">
             <div className="title-item">Micheal</div>
             <div className="title-item">Front-End Dev</div>
@@ -27,7 +33,13 @@ function Intro() {
         </div>
         <div className="seeMoreBtn">
           <Link to="/about">
-            <button className="moreBtn">See more</button>
+            <button
+              className="moreBtn"
+              data-aos="fade-up"
+              data-aos-easing="ease-in-sine"
+            >
+              See more
+            </button>
           </Link>
         </div>
       </div>

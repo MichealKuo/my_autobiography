@@ -33,13 +33,15 @@ function AboutMe() {
         <div className="AboutText">
           <h6>
             I'm a <span>Front-end-Develope Junior </span>trying to get in
-            <span> IT department.</span> Here , you could know what
-            i'm working on and what kind of skills , tools and languages i used
-            to set up the website. Hope you would like it!
+            <span> IT department.</span> Here , you could know what i'm working
+            on and what kind of skills , tools and languages i used to set up
+            the website. Hope you would like it!
           </h6>
         </div>
         <div className="btn-contact">
-          <button className="Talk-btn">Let's Talk</button>
+          <a href="#contact">
+            <button className="Talk-btn">Let's Talk</button>
+          </a>
         </div>
       </div>
     </div>

@@ -6,7 +6,6 @@ import CollectCard from "../components/CollectCard";
 import AboutMe from "../components/AboutMe";
 import Intro from "../components/Intro";
 import Contact from "../components/Contact";
-import Navbar from "./Navbar";
 
 function Home() {
   //設定aos.初始值
@@ -18,7 +17,6 @@ function Home() {
     <>
       {/* self-part */}
       <div className="HomePage">
-        <Navbar />
         <section>
           <Intro />
         </section>
@@ -31,7 +29,7 @@ function Home() {
           <CollectCard />
         </section>
         {/* contact */}
-        <section>
+        <section id="contact">
           <Contact />
         </section>
       </div>
