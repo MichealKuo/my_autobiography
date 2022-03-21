@@ -1,7 +1,9 @@
 .Contact-Part {
   width: 100%;
   height: 80vh;
-  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   text-align: center;
   background-color: rgb(55, 47, 47);
 }
@@ -96,13 +98,13 @@ textarea:focus {
   }
   .MailIcon,
   .CellIcon {
-    width: 100%;
-    margin: 0 auto 1rem auto;
-    padding: 1rem;
+    width: 80%;
+    margin: 0 auto 0.8rem auto;
+    padding: 0.8rem;
   }
   .MailIcon:hover,
   .CellIcon:hover {
-    width: 100%;
+    width: 80%;
     margin: 0 auto 1rem auto;
     padding: 1rem;
   }
@@ -115,12 +117,12 @@ textarea:focus {
   }
   input,
   textarea {
-    width: 100%;
+    width: 80%;
     padding: 0.6rem;
     margin: 0.5rem 0;
     font-size: 0.8rem;
   }
-  .contactBtn{
+  .contactBtn {
     font-size: 0.2rem;
   }
 }

@@ -35,3 +35,11 @@
   transition: all 10s 0.5s;
   /* hover時照片往Ｙ上方跑 */
 }
+
+@media screen and (max-width: 960px) {
+  .CardBox {
+    width: 90%;
+    height: 20vh;
+    margin: 16px auto;
+  }
+}

@@ -35,20 +35,20 @@ function Contact() {
   };
   return (
     <div className="Contact-Part">
-      <div className="ContactText">
+      <div className="ContactText" data-aos="fade-right">
         <h1>Contact</h1>
       </div>
       <div className="contact">
         <div className="Contact-left">
           <div className="ContactIcon">
-            <div className="MailIcon">
-              <FiMail className="icon-size " />
+            <div className="MailIcon" data-aos="fade-up" data-aos-delay="250">
+              <FiMail className="icon-size" />
               <h4>Email</h4>
               <h6>sxdcfv20002000@gmail.com</h6>
               <a href="#"></a>
             </div>
-            <div className="CellIcon">
-              <FiPhoneCall className="icon-size " />
+            <div className="CellIcon" data-aos="fade-up" data-aos-delay="450">
+              <FiPhoneCall className="icon-size" />
               <h4>Cellphone</h4>
               <h6>0988393593</h6>
             </div>
@@ -56,7 +56,7 @@ function Contact() {
         </div>
         <div className="Contact-right">
           <form ref={form} onSubmit={sendEmail}>
-            <div className="inputPart1">
+            <div className="inputPart1" data-aos="fade-up" data-aos-delay="250">
               <input
                 name="name"
                 type="text"
@@ -64,7 +64,7 @@ function Contact() {
                 required
               />
             </div>
-            <div className="inputPart2">
+            <div className="inputPart2"data-aos="fade-up" data-aos-delay="500">
               <input
                 type="email"
                 name="email"
@@ -72,7 +72,7 @@ function Contact() {
                 required
               />
             </div>
-            <div className="inputPart3">
+            <div className="inputPart3"data-aos="fade-up" data-aos-delay="750">
               <textarea
                 name="message"
                 placeholder="Your Message"
@@ -80,7 +80,7 @@ function Contact() {
                 required
               />
             </div>
-            <div className="contactBtn">
+            <div className="contactBtn"data-aos="fade-up" data-aos-delay="1000">
               <button type="submit" className="contact-btn">
                 Send
               </button>

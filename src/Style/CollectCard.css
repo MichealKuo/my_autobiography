@@ -8,12 +8,16 @@
   background-color: rgb(55, 47, 47);
 }
 .CollectText {
-  margin-top: 3rem;
   color: rgba(255, 255, 255, 0.89);
 }
 .CollectionCard {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+}
+@media screen and (max-width: 960px) {
+  .CollectText {
+    margin-top: 0;
+  }
+ 
 }

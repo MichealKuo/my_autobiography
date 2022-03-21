@@ -5,10 +5,14 @@ import "../Style/CollectCardForPage.css";
 function CollectionCardForPage() {
   return (
     <div className="CollectionCardPage">
-      <div className="CollectPageText">
+      <div className="CollectPageText" data-aos="fade-right">
         <h1>Collection</h1>
       </div>
-      <div className="CollectionCards">
+      <div
+        className="CollectionCards"
+        data-aos="fade-right"
+        data-aos-delay="250"
+      >
         {Collection.map((item) => (
           <Card
             key={item.id}
