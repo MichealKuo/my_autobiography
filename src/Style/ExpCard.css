@@ -1,0 +1,47 @@
+.ExpBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.ExpCard {
+  width: 45%;
+  text-align: start;
+  border-radius: 10px;
+  /* border: 5px solid #aaa; */
+  box-shadow: 6px 6px 12px;
+  padding: 2rem;
+  margin: 3rem 2rem;
+}
+.ExpCardImg {
+  align-items: center;
+  align-content: center;
+}
+
+.ExpCardText {
+  color: rgb(55, 47, 47);
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+}
+
+.ExpCardImg {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  float: left;
+}
+@media screen and (max-width: 960px) {
+  .ExpCard {
+    width: 100%;
+    margin: 3rem 1rem;
+    display: block;
+    padding: 1rem;
+  }
+  .ExpCardText {
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  span {
+    font-size: 0.8rem;
+  }
+}

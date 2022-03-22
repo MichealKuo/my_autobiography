@@ -1,0 +1,19 @@
+.Exp {
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+.ExpHeader {
+  margin-bottom: 3rem;
+  color: rgb(55, 47, 47);
+}
+
+@media screen and (max-width: 960px) {
+  .Exp{
+    padding: 0;
+  }
+  .ExpHeader {
+    margin:0;
+  }
+}
