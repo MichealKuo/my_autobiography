@@ -1,9 +1,15 @@
 import React from "react";
-
+import AboutMe from "../components/AboutMe";
+import Skills from "../components/Skills";
 function About() {
   return (
     <div className="AboutPart">
-      <section>About</section>
+      <section>
+        <AboutMe />
+      </section>
+      <section>
+        <Skills />
+      </section>
     </div>
   );
 }
