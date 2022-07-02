@@ -35,7 +35,7 @@ function Contact() {
     e.target.reset();
   };
   return (
-    <div className="Contact-Part">
+    <div id="Contact-Part">
       <div className="ContactText" data-aos="fade-right">
         <h1>Contact</h1>
       </div>
