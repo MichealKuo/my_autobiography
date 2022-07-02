@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/my_autobiography/static/css/main.4337fe51.css",
-    "main.js": "/my_autobiography/static/js/main.5e60d854.js",
+    "main.css": "/my_autobiography/static/css/main.09b61a11.css",
+    "main.js": "/my_autobiography/static/js/main.9f8116c5.js",
     "static/media/introDelBG.JPG": "/my_autobiography/static/media/introDelBG.d7043b3ede9b88fc6f5e.JPG",
     "static/media/AboutMe.JPG": "/my_autobiography/static/media/AboutMe.5e6fb8dd295058860ac1.JPG",
     "static/media/iii.jpeg": "/my_autobiography/static/media/iii.243a94bf38933ed29592.jpeg",
     "static/media/senao-logo.jpeg": "/my_autobiography/static/media/senao-logo.d7591d60033e4b4d7056.jpeg",
     "index.html": "/my_autobiography/index.html",
-    "main.4337fe51.css.map": "/my_autobiography/static/css/main.4337fe51.css.map",
-    "main.5e60d854.js.map": "/my_autobiography/static/js/main.5e60d854.js.map"
+    "main.09b61a11.css.map": "/my_autobiography/static/css/main.09b61a11.css.map",
+    "main.9f8116c5.js.map": "/my_autobiography/static/js/main.9f8116c5.js.map"
   },
   "entrypoints": [
-    "static/css/main.4337fe51.css",
-    "static/js/main.5e60d854.js"
+    "static/css/main.09b61a11.css",
+    "static/js/main.9f8116c5.js"
   ]
 }
