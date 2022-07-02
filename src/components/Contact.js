@@ -1,6 +1,6 @@
 import React from "react";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
-import "../Style/contact.css";
+import "../Style/Contact.css";
 import { useRef } from "react";
 import emailjs from "emailjs-com";
 // emailjs 套件
@@ -26,7 +26,7 @@ function Contact() {
       .then(
         (result) => {
           console.log(result.text);
-          alert('Thanks for contact me!')
+          alert("Thanks for contact me!");
         },
         (error) => {
           console.log(error.text);
@@ -65,7 +65,7 @@ function Contact() {
                 required
               />
             </div>
-            <div className="inputPart2"data-aos="fade-up" data-aos-delay="500">
+            <div className="inputPart2" data-aos="fade-up" data-aos-delay="500">
               <input
                 type="email"
                 name="email"
@@ -73,7 +73,7 @@ function Contact() {
                 required
               />
             </div>
-            <div className="inputPart3"data-aos="fade-up" data-aos-delay="750">
+            <div className="inputPart3" data-aos="fade-up" data-aos-delay="750">
               <textarea
                 name="message"
                 placeholder="Your Message"
@@ -81,7 +81,11 @@ function Contact() {
                 required
               />
             </div>
-            <div className="contactBtn"data-aos="fade-up" data-aos-delay="1000">
+            <div
+              className="contactBtn"
+              data-aos="fade-up"
+              data-aos-delay="1000"
+            >
               <button type="submit" className="contact-btn">
                 Send
               </button>
