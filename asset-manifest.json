@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/my_autobiography/static/css/main.1a7a3042.css",
+    "main.js": "/my_autobiography/static/js/main.3c1f366c.js",
+    "static/media/introDelBG.JPG": "/my_autobiography/static/media/introDelBG.d7043b3ede9b88fc6f5e.JPG",
+    "static/media/AboutMe.JPG": "/my_autobiography/static/media/AboutMe.5e6fb8dd295058860ac1.JPG",
+    "static/media/iii.jpeg": "/my_autobiography/static/media/iii.243a94bf38933ed29592.jpeg",
+    "static/media/senao-logo.jpeg": "/my_autobiography/static/media/senao-logo.d7591d60033e4b4d7056.jpeg",
+    "index.html": "/my_autobiography/index.html",
+    "main.1a7a3042.css.map": "/my_autobiography/static/css/main.1a7a3042.css.map",
+    "main.3c1f366c.js.map": "/my_autobiography/static/js/main.3c1f366c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1a7a3042.css",
+    "static/js/main.3c1f366c.js"
+  ]
+}
